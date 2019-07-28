@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		844BB1F522E774C300043908 /* StasticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844BB1F422E774C300043908 /* StasticsView.swift */; };
-		844BB1F722E7824500043908 /* playerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844BB1F622E7824500043908 /* playerRow.swift */; };
+		843BE7F522ED2ADC006A191C /* playerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843BE7F422ED2ADC006A191C /* playerRow.swift */; };
+		843BE7F822ED2AFA006A191C /* StasticsView copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843BE7F622ED2AFA006A191C /* StasticsView copy.swift */; };
+		843BE7F922ED2AFA006A191C /* PlayerList copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843BE7F722ED2AFA006A191C /* PlayerList copy.swift */; };
 		8452446C22E75E7000019EA8 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8452446B22E75E7000019EA8 /* Player.swift */; };
 		8476FAE022E0BF55001CEC2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8476FADF22E0BF55001CEC2E /* AppDelegate.swift */; };
 		8476FAE222E0BF55001CEC2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8476FAE122E0BF55001CEC2E /* SceneDelegate.swift */; };
@@ -18,7 +19,6 @@
 		8476FAEC22E0BF5F001CEC2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8476FAEA22E0BF5F001CEC2E /* LaunchScreen.storyboard */; };
 		8476FAF722E0BF5F001CEC2E /* SwiftUI_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8476FAF622E0BF5F001CEC2E /* SwiftUI_ExampleTests.swift */; };
 		8476FB0222E0BF5F001CEC2E /* SwiftUI_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8476FB0122E0BF5F001CEC2E /* SwiftUI_ExampleUITests.swift */; };
-		84A2846A22E7AF4300B1C745 /* PlayerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A2846922E7AF4300B1C745 /* PlayerList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		844BB1F422E774C300043908 /* StasticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StasticsView.swift; path = "../../../../../../System/Volumes/Data/Users/admin/Desktop/InterviewTest/SwiftUI-Example/SwiftUI-Example/StasticsView.swift"; sourceTree = "<group>"; };
-		844BB1F622E7824500043908 /* playerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = playerRow.swift; path = "../../../../../../System/Volumes/Data/Users/admin/Desktop/InterviewTest/SwiftUI-Example/SwiftUI-Example/playerRow.swift"; sourceTree = "<group>"; };
+		843BE7F422ED2ADC006A191C /* playerRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = playerRow.swift; sourceTree = "<group>"; };
+		843BE7F622ED2AFA006A191C /* StasticsView copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StasticsView copy.swift"; sourceTree = "<group>"; };
+		843BE7F722ED2AFA006A191C /* PlayerList copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlayerList copy.swift"; sourceTree = "<group>"; };
 		8452446B22E75E7000019EA8 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		8476FADC22E0BF55001CEC2E /* SwiftUI-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8476FADF22E0BF55001CEC2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,7 +57,6 @@
 		8476FAFD22E0BF5F001CEC2E /* SwiftUI-ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8476FB0122E0BF5F001CEC2E /* SwiftUI_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ExampleUITests.swift; sourceTree = "<group>"; };
 		8476FB0322E0BF5F001CEC2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84A2846922E7AF4300B1C745 /* PlayerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlayerList.swift; path = "../../../../../../System/Volumes/Data/Users/admin/Desktop/InterviewTest/SwiftUI-Example/SwiftUI-Example/PlayerList.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,10 +118,10 @@
 				8452446A22E75E6100019EA8 /* Service Call */,
 				8476FADF22E0BF55001CEC2E /* AppDelegate.swift */,
 				8476FAE122E0BF55001CEC2E /* SceneDelegate.swift */,
-				84A2846922E7AF4300B1C745 /* PlayerList.swift */,
-				844BB1F622E7824500043908 /* playerRow.swift */,
+				843BE7F622ED2AFA006A191C /* StasticsView copy.swift */,
+				843BE7F422ED2ADC006A191C /* playerRow.swift */,
 				8476FAE322E0BF55001CEC2E /* PlayerInfo.swift */,
-				844BB1F422E774C300043908 /* StasticsView.swift */,
+				843BE7F722ED2AFA006A191C /* PlayerList copy.swift */,
 				8476FAE522E0BF5F001CEC2E /* Assets.xcassets */,
 				8476FAEA22E0BF5F001CEC2E /* LaunchScreen.storyboard */,
 				8476FAED22E0BF5F001CEC2E /* Info.plist */,
@@ -288,12 +288,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8452446C22E75E7000019EA8 /* Player.swift in Sources */,
-				844BB1F522E774C300043908 /* StasticsView.swift in Sources */,
-				844BB1F722E7824500043908 /* playerRow.swift in Sources */,
+				843BE7F922ED2AFA006A191C /* PlayerList copy.swift in Sources */,
 				8476FAE022E0BF55001CEC2E /* AppDelegate.swift in Sources */,
 				8476FAE222E0BF55001CEC2E /* SceneDelegate.swift in Sources */,
-				84A2846A22E7AF4300B1C745 /* PlayerList.swift in Sources */,
 				8476FAE422E0BF55001CEC2E /* PlayerInfo.swift in Sources */,
+				843BE7F822ED2AFA006A191C /* StasticsView copy.swift in Sources */,
+				843BE7F522ED2ADC006A191C /* playerRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

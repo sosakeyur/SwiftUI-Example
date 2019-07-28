@@ -20,6 +20,8 @@ struct PlayerInfo: View {
                 .frame(height: 250)
             //Adding Avatar Image
             Image(player.imageName)
+                .resizable()
+                .scaledToFit()
                 .clipShape(Circle())
                 .background(Circle())
                 .foregroundColor(.white)
@@ -31,6 +33,9 @@ struct PlayerInfo: View {
             Text(player.name)
                 .font(.system(size: 50))
                 .fontWeight(.heavy)
+                .padding(.leading)
+                .padding(.trailing)
+                .minimumScaleFactor(0.5)
             
             //Reusable view code
             StasticsView(
@@ -54,7 +59,11 @@ struct PlayerInfo: View {
 #if DEBUG
 struct PlayerInfo_Previews: PreviewProvider {
     static var previews: some View {
-        PlayerInfo(player: players[0])
+        Group {
+            PlayerInfo(player: players[0]).previewDevice("iPhone XS Max")
+            PlayerInfo(player: players[0]).previewDevice("iPhone SE")
+        }
+        
     }
 }
 #endif
